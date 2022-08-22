@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
+import './App.css'
 import Form from './components/Form'
 import FormTask from './components/FormTask'
 import TodoList from './components/TodoList'
 import TodoListTask from './components/TodoListTask'
-import './App.css'
 
 const App = () => {
   
@@ -16,7 +16,7 @@ const App = () => {
   return (
     <div className='container'>
       <div className='thoughtsContainer'>
-        <header>Thoughts for the Day</header>
+        <header>Thoughts for the</header>
         <Form
           input = {input}
           setInput = {setInput}
